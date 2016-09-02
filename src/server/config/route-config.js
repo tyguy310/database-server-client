@@ -6,7 +6,7 @@
 
     // *** routes *** //
     const routes = require('../routes/index');
-    const contacts = require('../routes/contacts')
+    const contacts = require('../routes/contacts');
 
     // *** register routes *** //
     app.use('/', routes);
